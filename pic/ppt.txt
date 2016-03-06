@@ -1,0 +1,11 @@
+ 
+MAP2-neuronal cells
+ERp57-endoplasmic reticulum
+Golgi-58k-Golgi apparatus 
+LAMP1-lysosome 
+CD68/ED1-microglia
+DAPI-neuclei
+vWF,CD31-endothelial cells
+GFAP-astrocytes
+CD31
+PI

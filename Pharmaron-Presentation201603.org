@@ -1,0 +1,281 @@
+#+TITLE:  Multiple therapeutic effects of progranulin on experimental acute ischaemic stroke
+#+AUTHOR: Xiaowei Mao
+#+EMAIL:  maoweirm@126.com
+#+BEAMER_HEADER: \date[March 4$^{th}$, 2016]{March 4$^{th}$, 2016 \\ \vskip 0.5cm \scriptsize{Brain. 2015 Jul;138(Pt 7):1932-48.}}
+#+BEAMER_HEADER: \title[Progranulin on ischemic stroke]{Multiple therapeutic effects of progranulin on experimental acute ischaemic stroke}
+#+BEAMER_HEADER: \institute[Pharmaron]{Pharmacology, Pharmaron} 
+#+OPTIONS: H:2 num:t toc:1 \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+#+BEAMER_FRAME_LEVEL: 2
+#+LaTeX_HEADER: \usetheme{CambridgeUS}
+#+LaTeX_HEADER: \AtBeginSection{\begin{frame}{Outline}   \tableofcontents[currentsection] \end{frame} }
+#+LaTeX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+LaTeX_HEADER: \renewcommand\maketitle{\frame[plain]{\titlepage}}
+#+LaTeX_HEADER: \usepackage{fontspec}
+#+LaTeX_HEADER: \usepackage{xeCJK}
+#+LaTeX_HEADER: \setmainfont{Times New Roman}
+#+LaTeX_HEADER: \setsansfont{Arial}
+#+LaTeX_HEADER: \setmonofont{Courier Std}
+#+LaTeX_HEADER: \setCJKmainfont[BoldFont={ },ItalicFont={ }]{WenQuanYi Micro Hei}
+#+LaTeX_HEADER: \setCJKsansfont{WenQuanYi Micro Hei}
+#+LaTeX_HEADER: \setCJKmonofont{WenQuanYi Micro Hei Mono} 
+#+LaTeX_HEADER: \graphicspath{{pic/}}
+#+BEAMER_HEADER: %\logo{\includegraphics[height=5mm]{logo.png}}
+#+LaTeX_HEADER: \usepackage[backend = biber, natbib=true, style = science, sorting = none]{biblatex}
+#+LaTeX_HEADER: \addbibresource{Pharmaron.bib}
+#+LaTeX_HEADER: \AtBeginBibliography{\footnotesize}
+#+LaTeX_HEADER: \setbeamertemplate{bibliography item}[text]
+#+LaTeX_HEADER: \usepackage[none]{hyphenat}
+#+LaTeX_HEADER: \usepackage[abs]{overpic}
+* Background                                    
+** What's the stroke
+*** A block                                                         :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+- A stroke is a medical emergency in which the blood supply to any portion of the brain is interrupted or reduced.
+\vspace{0.5cm}
+- Alternative names: Cerebrovascular accident/ disease (CVA), Cerebral infarction, Cerebral hemorrhage.
+*** picture                                                         :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+\includegraphics[width=4.5cm]{b1} \newline
+\centering \scriptsize{The Circle of Willis Anatomy}
+** What's the impact of stroke?
+- Stroke is the third leading cause of death in the United States (First in China)
+ - Someone suffers a stroke every 40 seconds
+ - About 795,000 Americans suffer a stroke each year (2% in 2012-2013)
+ - About every 4 minutes, someone dies of a stroke
+- Stroke is a leading cause of serious, long-term long disability
+- About 6.4 million Americans are stroke survivors
+- Americans will pay about $71.5 billion in 2012 for stroke-related related medical costs and lost productivity (￥40 billion in China)
+** Types of stroke
+\begin{overpic}[height=6cm, width=12cm]{b2}
+\put(20,0){\visible<2>{\includegraphics[height=6cm, width=5.5cm]{b6}}}
+\put(200,0){\visible<2>{\includegraphics[height=6cm, width=4.5cm]{b3}}}
+\put(0,0){\visible<4>{\includegraphics[height=6cm, width=6.5cm]{b4}}}
+\put(172,0){\visible<4>{\includegraphics[height=6cm, width=6cm]{b5}}}
+\end{overpic}
+** Stroke therapy
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+\includegraphics[height=7.6cm,width=\textwidth]{b7}
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.55
+:END:
+\begin{overpic}[height=6cm, width=\textwidth]{b0}
+\put(0,80){\visible<2->{\includegraphics[height=4cm, width=\textwidth]{b11}}}
+\put(0,-25){\visible<3>{\includegraphics[height=4cm, width=\textwidth]{b12}}}
+\put(0,-22){\visible<4>{\includegraphics[height=3.6cm, width=\textwidth]{b9}}}
+\end{overpic}
+** Pathophysiology of stroke
+\includegraphics[height=7cm,width=\textwidth]{b8}
+** Stroke therapy 
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+\includegraphics[height=5cm,width=\textwidth]{b10}
+*** \pause \small Stroke therapeutic strategy                 :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:BEAMER_env: block
+:END:
+\begin{itemize}
+\item \footnotesize Broaden the therapeutic time window
+\begin{itemize}
+ \item \scriptsize The new thrombolytics
+ \item \scriptsize Neuroprotection agents-\emph{\textbf{progranulin}}
+\end{itemize}
+\item \footnotesize Therapy is recovery stage
+\begin{itemize}
+ \item \scriptsize Neuroprotection agents
+ \item \scriptsize Stem cell therapy
+ \item \scriptsize Chinese traditional medicine
+ \item \scriptsize Acupuncture
+ \item \scriptsize ......
+\end{itemize}
+\end{itemize}
+** Progranulin (PGRN)
+*** Progranulin (PGRN):                                             :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.8
+:END:
+- A widely expressed secreted N-linked glycoprotein growth factor
+\vskip 0.5cm
+- Two isoforms:
+ - \footnotesize The glycosylated immature isoform (58–68 kDa)
+ - \footnotesize The fully glycosylated mature secretory isoform (~88 kDa)
+\vskip 0.5cm
+- Mutiple physiology effects
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.8
+:END:
+\begin{overpic}[height=6cm, width=\textwidth]{b0}
+\put(-200,0){\visible<2->{\includegraphics[height=6cm, width=\textwidth]{b13}}}
+\end{overpic}
+** The relationship of PGRN and stroke
+*** First, Protecd vascular from cerebral ishcemia
+ - \footnotesize Recombinant PGRN could suppress cerebral oedema in focal MCAO
+ - \footnotesize PGRN knockout mice prompt post-ischaemic BBB disruption
+*** \pause Second, PGRN is involved in neuroinflammation
+ - \footnotesize PGRN was induced in activated microglia
+ - \footnotesize Microglia activation incresed infract area in ischemia
+ - \footnotesize PGRN suppress secretion of pro-inflammatory cytokines and recruitment of neutrophils
+*** \pause Third, PGRN exhibit protective effects on neuronal cells
+ - \footnotesize TARDBP (TDP-43) is involved in cerebral ischemia
+ - \footnotesize PGRN inhibite caspase 3 to suppress TARDBP cleavage
+** Aim to study
+*** The study were designed to clarify the effetcts of PGRN on regulation of blood–brain barrier function, suppression of inflammation, and neuroprotection against acute focal cerebral ischaemia.
+* Materials and Methods
+** Methods used in the article
+*** Focal cerebral ischaemia model
+*** Immunoblotting
+*** Immunofluorescence staining and confocal microscopy
+*** Immunohistochemistry
+*** Measurement of the volume of the cerebral infarct and oedema
+*** Neurological evaluations
+** Methods used in the article
+*** C6 cell culture and analysis of glycosylation
+*** Primary cell cultures
+*** Oxygen–glucose deprivation
+*** Cell counting protocols
+*** PCR and quantitative real-time PCR
+*** Focal embolic ischaemia model
+** Markers used in the article
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+- MAP2-neuronal cells
+- ERp57-endoplasmic reticulum
+- Golgi-58k-Golgi apparatus 
+- LAMP1-lysosome 
+- CD68/ED1-microglia
+- DAPI-neuclei
+- vWF,CD31-endothelial cells
+- GFAP-astrocytes
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(0,0){\visible<2->{\includegraphics[height=4cm, width=5cm]{m1}}}
+\end{overpic}
+* Results
+** \small The expression and localization of PGRN on non-ischemia cortex
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(-7,-10){\visible<1->{\includegraphics[height=5cm, width=6.2cm]{f11}}}
+\put(170,-10){\visible<2>{\includegraphics[height=6cm, width=6.2cm]{f12}}}
+\end{overpic}
+\vskip 0.5cm \scriptsize MAP2-neuronal cells ERp57-endoplasmic reticulum Golgi-58k-Golgi apparatus LAMP1-lysosome CD68/ED1-microgliay
+** \small The expression and localization of PGRN on ischemia cortex
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(-7,70){\visible<1->{\includegraphics[height=3.5cm, width=6.2cm]{f21}}}
+\put(-7,-30){\visible<2->{\includegraphics[height=3.5cm, width=6.2cm]{f22}}}
+\put(171,-30){\visible<3>{\includegraphics[height=7cm, width=6.2cm]{f23}}}
+\end{overpic}
+\vskip 1.2cm \scriptsize vWF-endothelial cells GFAP-astrocytes
+** \small PGRN temporal changes and its glycosylated status after ischemia
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(0,-20){\visible<1>{\includegraphics[height=7cm, width=12cm]{f31}}}
+\put(80,10){\visible<2>{\includegraphics[height=5cm, width=7cm]{f32}}}
+\end{overpic}
+** \small Production and secretion of the two isoforms of PGRN after OGD 
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(-7,20){\visible<1->{\includegraphics[height=3.8cm, width=6.2cm]{f41}}}
+\put(171,76){\visible<2->{\includegraphics[height=3.8cm, width=6.2cm]{f42}}}
+\put(171,-30){\visible<2->{\includegraphics[height=3.8cm, width=6.2cm]{f43}}}
+\end{overpic}
+** Summary
+- The author demonstrated a dynamic change in progranulin expression:
+ - \footnotesize PGRN's expression in microglia increased in the border of ischemic core and penumbra
+ - \footnotesize PGRN's expression in viable neurons increased within the ischemic penumbra
+ - \footnotesize PGRN's expression in endothelial cells increased within ischemia penumbra
+-  ~88 kDa progranulin decreased, whereas the 58–68 kDa progranulin markedly increased at 24 h and 72 h after reperfusion
+- 58-68 kDa PGRN was secreted only from the microglia after ischemia
+** \small PGRN attenuate BBB disruption after cerebral ischaemia via VEGF
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(0,-20){\visible<1>{\includegraphics[height=7cm, width=12cm]{f51}}}
+\put(40,-20){\visible<2>{\includegraphics[height=7cm, width=10cm]{f52}}}
+\end{overpic}
+** \small PGRN suppress neuroinflammation after cerebral ishcemia via IL-10
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(-7,76){\visible<1->{\includegraphics[height=3.8cm, width=6.2cm]{f61}}}
+\put(0,-30){\visible<1->{\includegraphics[height=3.8cm, width=12cm]{f62}}}
+\put(170,76){\visible<2->{\includegraphics[height=3.8cm, width=6.2cm]{f63}}}
+\end{overpic}
+** \small PGRN protect neuron from cerebral ischemia in part by the inhibition of abnormal cytoplasmic redistribution of nuclear TARDBP
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(0,-10){\visible<1>{\includegraphics[height=6.5cm, width=12cm]{f71}}}
+\put(0,0){\visible<2>{\includegraphics[height=6cm, width=12cm]{f72}}}
+\end{overpic}
+** \small Therapeutic effects of PGRN with tPA for cerebral ischaemia
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(40,-20){\visible<1>{\includegraphics[height=7cm, width=10cm]{f81}}}
+\put(40,-20){\visible<2>{\includegraphics[height=6cm, width=10cm]{f82}}}
+\end{overpic}
+
+* Conclusion
+** Conculsion
+- First, the author firstly demonstrated the dynamic changes of PGRN, and the 58-68 kDa PGRN was secreted only from the microglia after ischemia
+\vskip 0.5cm
+- Sceond, PGRN provides vascular protection, anti-neuroinflammation, and neuroprotection related in part to VEGF, IL10 and TARDBP
+\vskip 0.5cm
+- Third, the possibility that recombinant PGRN could be used as a novel neurovascular protective drug with anti-inflammatory effect after delayed tPA treatment
+** References
+\tiny
+\cite{moretti2015neuroprotection} \cite{george2015novel} \cite{butcher2010acute} \cite{hacke2008thrombolysis} \cite{kanazawa2011biochemical} \cite{kanazawa2011inhibition} \cite{nguyen2013progranulin} \cite{o20061}
+\printbibliography[heading = none]
+** Some Comments of mine
+*** The study design is complete
+*** \pause But
+- The precise mechnisms of PGRN on ischemia
+- \pause Wentern blot results isn't beautiful
+- \pause The MCAO model validation standard
+** Focal cerebral ischemia model
+*** Focal ischemia model validation standard                         :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+\vskip 3.5cm
+#+BEGIN_LATEX
+\hskip 0.2cm \small Focal ischemia model validation \\ \hskip 0.2cm standard
+#+END_LATEX
+- \footnotesize I -30 min CBF Baseline 100%
+- \footnotesize I 10 min CBF < 20% , \newline I 80 min CBF < 20%
+- \footnotesize R 10 min CBF > 70% 
+***                                                                 :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 1.0
+:END:
+\begin{overpic}[height=6cm, width=\textwidth]{b0}
+\put(-165,-20){\visible<1>{\includegraphics[height=7cm, width=0.65\textwidth]{b16}}}
+\put(-160,100){\visible<2->{\includegraphics[height=3cm, width=\textwidth]{b14}}}
+\put(20,-25){\visible<2->{\includegraphics[height=4cm, width=0.5\textwidth]{b15}}}
+\end{overpic}
+** Methods to search and obtain the article
+\begin{overpic}[height=6cm, width=12cm]{b0}
+\put(0,-20){\visible<1>{\includegraphics[height=7cm, width=12cm]{1-1}}}
+\put(0,-20){\visible<2>{\includegraphics[height=7cm, width=12cm]{1-2}}}
+\put(0,-20){\visible<3>{\includegraphics[height=7cm, width=12cm]{2-1}}}
+\put(0,-20){\visible<4>{\includegraphics[height=7cm, width=12cm]{2-2}}}
+\put(0,-20){\visible<5>{\includegraphics[height=7cm, width=12cm]{2-3}}}
+\put(0,-20){\visible<6>{\includegraphics[height=7cm, width=12cm]{2-4}}}
+\end{overpic}
+** 
+\huge Thanks for your attention.
+\vskip 3cm
+\centering \Huge Questions?
