@@ -1,0 +1,44 @@
+    \makeatletter
+
+    \DeclareCiteCommand{\superfootcite}[\cbx@superscript]
+      {\usebibmacro{cite:init}%
+       \let\multicitedelim=\supercitedelim
+       \iffieldundef{prenote}
+         {}
+         {\BibliographyWarning{Ignoring prenote argument}}%
+       \iffieldundef{postnote}
+         {}
+         {\BibliographyWarning{Ignoring postnote argument}}}
+      {\usebibmacro{citeindex}%
+       \usebibmacro{cite:superfoot}%
+       \usebibmacro{cite:comp}}
+      {}
+      {\usebibmacro{cite:dump}}
+
+    \AtDataInput{%
+      \csnumgdef{cbx@instcount@curr@\thefield{entrykey}}{0}}
+    \AtEveryCitekey{%
+      \csnumgdef{cbx@instcount@last@\thefield{entrykey}}{%
+        \csuse{cbx@instcount@curr@\thefield{entrykey}}}%
+      \csnumgdef{cbx@instcount@curr@\thefield{entrykey}}{\value{instcount}}}
+
+    \def\iflastciteonsamepage{%
+      \ifsamepage
+        {\number\csuse{cbx@instcount@curr@\thefield{entrykey}}}
+        {\number\csuse{cbx@instcount@last@\thefield{entrykey}}}}
+
+    \newbibmacro*{cite:superfoot}{% 
+      \iflastciteonsamepage   
+        {}
+        {\xappto\cbx@citehook{%
+           \noexpand\footnotetext[\thefield{labelnumber}]{%
+             \fullcite{\thefield{entrykey}}\addperiod}}}}
+
+
+    \newrobustcmd{\cbx@superscript}[1]{%
+      \mkbibsuperscript{#1}%
+      \cbx@citehook
+      \global\let\cbx@citehook=\empty}
+    \let\cbx@citehook=\empty
+
+    \makeatother
